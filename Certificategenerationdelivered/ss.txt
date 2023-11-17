@@ -1,0 +1,43 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Oct 12, 2015 at 09:22 AM
+-- Server version: 5.1.35
+-- PHP Version: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `student`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `det`
+--
+
+CREATE TABLE IF NOT EXISTS `det` (
+  `data` text,
+  `recn` int(10) unsigned NOT NULL,
+  `regn` int(20) unsigned DEFAULT NULL,
+  `studn` varchar(50) DEFAULT NULL,
+  `addr` text,
+  `cus` text,
+  `bat` int(10) NOT NULL,
+  `dpt` int(10) NOT NULL,
+  `year` text NOT NULL,
+  `sem` int(10) NOT NULL,
+  `frm` int(10) NOT NULL,
+  `to` int(10) NOT NULL,
+  `adf` int(20) NOT NULL,
+  `amt` int(20) NOT NULL,
+  `amtw` int(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `det`
+--
+
